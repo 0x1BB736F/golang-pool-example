@@ -39,9 +39,9 @@ func (i *Item) Reset() {
 }
 
 func (i *Item) Close() {
-	i.poolChan <- i.idx
-
 	i.Reset()
+
+	i.poolChan <- i.idx
 }
 
 func (i *Item) Index() int {
