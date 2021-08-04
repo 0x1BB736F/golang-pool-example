@@ -9,7 +9,7 @@ In this case, the pool allows you to organize the work and reuse of several stri
 
 ## Advantages
 
-- Realization allows to set the size of the pool, while protecting against negative and zero values.
+- The implementation allows you to set the size of the pool, and at the same time protects against negative and zero values.
 - Realization allows to use context for timeouts.
 - It easy to replace `strings.Builder` with another one (writers/readers e.t.c)
 
